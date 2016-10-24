@@ -13,3 +13,21 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import url('https://fonts.googleapis.com/css?family=Damion|Homemade+Apple|Permanent+Marker|Pinyon+Script|Rock+Salt');
+
+body {
+  background-color: white;
+  color: #222;
+}
+ .header {
+   font-family: 'Permanent Marker', cursive;
+   width: 100%;
+   text-align: center;
+   border: 10px solid pink;
+ }
+
+ .header h1 {
+   margin: 0 auto;
+   font-size: 100px;
+   display: inline-block;
+ }
